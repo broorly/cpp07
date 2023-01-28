@@ -6,7 +6,7 @@
 /*   By: mrafik <mrafik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/27 21:41:48 by mrafik            #+#    #+#             */
-/*   Updated: 2023/01/27 21:41:49 by mrafik           ###   ########.fr       */
+/*   Updated: 2023/01/28 17:19:14 by mrafik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 int main( void ) {
 int a = 2;
 int b = 3;
+
 ::swap( a, b );
 std::cout << "a = " << a << ", b = " << b << std::endl;
 std::cout << "min( a, b ) = " << ::min( a, b ) << std::endl;

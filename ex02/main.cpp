@@ -6,7 +6,7 @@
 /*   By: mrafik <mrafik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/27 21:41:34 by mrafik            #+#    #+#             */
-/*   Updated: 2023/01/27 21:41:35 by mrafik           ###   ########.fr       */
+/*   Updated: 2023/01/28 16:17:09 by mrafik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,6 +59,7 @@ int main(int, char**)
     for (int i = 0; i < MAX_VAL; i++)
     {
         numbers[i] = rand();
+        std::cout<<numbers[i] << std::endl;
     }
     delete [] mirror;//
     return 0;
